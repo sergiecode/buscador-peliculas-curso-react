@@ -16,19 +16,24 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
 Para crear el proyecto, ejecuta los siguientes comandos en tu terminal:
 
+```
     npx create-vite buscador-peliculas-react
     cd buscador-peliculas-react
+```
 
 ### 2. Instalar dependencias
 
 En el directorio del proyecto, ejecuta el siguiente comando para instalar las dependencias necesarias:
 
+```
     npm install react react-dom
+```
 
 ### 3. Crear el archivo principal
 
 Crea un nuevo archivo llamado "BuscadorPeliculas.jsx" en el directorio "src" y copia el siguiente código:
 
+```
     import { useState } from "react"
     
     export const BuscadorPeliculas = () => {
@@ -85,10 +90,13 @@ Crea un nuevo archivo llamado "BuscadorPeliculas.jsx" en el directorio "src" y c
       )
     }
 
+```
+
 ### 4. Agregar estilos
 
 Crea un nuevo archivo CSS llamado "styles.css" en el directorio "src" y agrega los siguientes estilos:
 
+```
     .container {
       max-width: 800px;
       margin: 0 auto;
@@ -130,11 +138,13 @@ Crea un nuevo archivo CSS llamado "styles.css" en el directorio "src" y agrega l
       font-size: 14px;
       color: #888;
     }
+```
 
 ### 5. Renderizar el componente
 
 Abre el archivo "main.jsx" en el directorio "src" y reemplaza su contenido con el siguiente código:
 
+```
     import React from "react";
     import ReactDOM from "react-dom";
     import { BuscadorPeliculas } from "./BuscadorPeliculas";
@@ -146,6 +156,8 @@ Abre el archivo "main.jsx" en el directorio "src" y reemplaza su contenido con e
       </React.StrictMode>,
       document.getElementById("root")
     );
+
+```
 
 
 ## Conclusiones
